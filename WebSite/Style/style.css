@@ -1,0 +1,56 @@
+h1{
+  padding-top: 5%;
+  color: #3382FF;
+}
+
+h2{
+  padding-top: 1%;
+  color: #3382FF;
+}
+h3{
+  padding-top: 1%;
+  color: #3382FF;
+}
+
+body{
+  background-image: url("./assets/Imagen2.jpg");
+  background-attachment: fixed;
+
+}
+
+th{
+  background-color: #6199F1;
+  color: white;
+}
+
+.material{
+  background-color:white;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+}
+
+.scrolled{
+  overflow-y: scroll;
+  height: 400px;
+}
+.dt-button.buttonPrimary {
+   background-image: linear-gradient(to bottom, #6199F1,#6199F1 100%) !important;
+   color: white;
+}
+/* Tooltip */
+  .test + .tooltip > .tooltip-inner {
+      background-color: #73AD21; 
+      color: #FFFFFF; 
+      border: 1px solid green; 
+      padding: 15px;
+      font-size: 20px;
+  }
+  /* Tooltip on top */
+  .test + .tooltip.top > .tooltip-arrow {
+      border-top: 5px solid green;
+  }
+  /* Tooltip on bottom */
+  .test + .tooltip.bottom > .tooltip-arrow {
+      border-bottom: 5px solid blue;
+  }
